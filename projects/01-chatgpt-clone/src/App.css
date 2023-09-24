@@ -1,0 +1,106 @@
+.gpt-mainInterface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.gpt-header {
+  display: flex;
+  background-color: #202123;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.gpt-header button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #4e4f60;
+  background-color: #40414f;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+}
+
+.gpt-buttonVersion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gpt-iconColor {
+  color: #19c37d;
+}
+
+.gpt-bottomSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.gpt-bottomSide p{
+  color: #C5C5D2;
+  font-size: 12px;
+}
+
+.gpt-bottomSide input[type="text"]{
+  width: 50%;
+  font-size: 15px;
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid #4e4f60;
+  background-color: #40414f;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.gpt-bottomSide p a{
+  color: #C5C5D2; 
+}
+
+.gpt-suggestions{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 60%;
+  margin: 15px;
+}
+
+.gpt-suggestionsCard{
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 3px;
+  border: 1px solid #4e4f60;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.gpt-suggestionsCard:hover{
+  background-color: #40414f;
+}
+
+.gpt-suggestionsCard .gptSuggestions-strongText{
+  font-weight: 600;
+  color: #C5C5D2;
+}
+
+.gpt-suggestionsCard .gptSuggestions-weakText{
+  color: #747481;
+}
+
+
